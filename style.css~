@@ -155,7 +155,7 @@ small {
 	font-size: smaller;
 }
 img {
-	border: 0;
+	border: 5px solid black;
 	-ms-interpolation-mode: bicubic;
 }
 
