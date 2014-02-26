@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <title>Navigation Menu</title>
-        <link href="menu.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="menu.css">
     </head>
     <body>
-        <ul id="navmenu">
+        <ul id="navmenu" display="inline">
             <li><a href=<?php echo getenv('HTTP_HOST');?>><img src="BeXcellent.jpg" width="150px" height="50px" alt="bexcellent"></a></li>
 
             <li><a href=<?php echo getenv('HTTP_HOST') + "about"?>About BeXcellent</a></li>
