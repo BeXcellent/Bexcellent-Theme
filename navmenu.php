@@ -6,8 +6,6 @@
     <body>
         <ul id="navmenu" display="inline">
             <li><a href=<?php echo getenv('HTTP_HOST');?>><img src="BeXcellent.jpg" width="150px" height="50px" alt="bexcellent"></a></li>
-
-            <li><a href=<?php echo getenv('HTTP_HOST') + "about"?>About BeXcellent</a></li>
             <li><a href=<?php echo getenv('HTTP_HOST') + "news"?>>News</a></li>
             <li><a href=<?php echo getenv('HTTP_HOST') + "gallery"?>>Gallery</a>
                 <ul class="sub">
