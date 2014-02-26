@@ -50,7 +50,7 @@ function twentytwelve_setup() {
 	 * to change 'twentytwelve' to the name of your theme in all the template files.
 	 */
 	load_theme_textdomain( 'twentytwelve', get_template_directory() . '/languages' );
-	add_theme_support( 'menus' );
+
 	// This theme styles the visual editor with editor-style.css to match the theme style.
 	add_editor_style();
 
