@@ -7,7 +7,7 @@
     </head>
     <body>
         <ul id="navmenu">
-            <li><a href=<?php echo getenv('HTTP_HOST') + "articles"?>><img src="BeXcellent.jpg" width="150px" height="50px" alt="bexcellent"></a></li>
+            <li><a href=<?php echo getenv('HTTP_HOST');?>><img src="BeXcellent.jpg" width="150px" height="50px" alt="bexcellent"></a></li>
             <li id="agegroup"><a href=<?php echo getenv('HTTP_HOST') + "ageselect";?>>Age Groups</a>
                 <ul class="sub">
                     <li><a href=<?php echo getenv('HTTP_HOST') + "5to8"?;>>5-8</a></li>
