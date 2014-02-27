@@ -5,10 +5,6 @@
     display:inline;
 }
 
-body {
-    background-color: #ff4e4e;
-}
-
 ul#navmenu, ul.sub {
     list-style-type: disc;
 }
