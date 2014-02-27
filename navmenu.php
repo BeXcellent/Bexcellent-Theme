@@ -6,12 +6,7 @@
     <body>
         <ul id="navmenu" display="inline">
             <li><a href="/"><img src="BeXcellent.jpg" width="150px" height="50px" alt="BeXcellent"></a></li>
-            <li id="agegroup" display="inline"><a href="/ageselect">Age Groups</a>
-                <ul class="sub">
-                    <li><a href="/5to8">5-8</a></li>
-                    <li><a href="/8to12">8-12</a></li>
-                    <li><a href="/12to18"?>12-18</a></li>
-                </ul>
+            <li display="inline"><a href="/ageselect">Age Selection</a>
             </li>
             <li><a href="/news">News</a></li>
             <li><a href="/gallery">Gallery</a>
