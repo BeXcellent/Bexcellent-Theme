@@ -10,10 +10,6 @@
             </li>
             <li><a href="/news">News</a></li>
             <li><a href="/gallery">Gallery</a>
-                <ul class="sub">
-                    <li><a href="/photos">Photos</a></li>
-                    <li><a href="/videos">Videos</a></li>
-                </ul>
             </li>
             <li><a href="/articles">Articles</a></li>
             <li><a href="/games">Games</a></li>
