@@ -1,23 +1,25 @@
 <?php
 /**
- * The template for displaying the footer
+ * The template for displaying the footer.
  *
- * Contains footer content and the closing of the #main and #page div elements.
+ * Contains the closing of the #content div and all content after
  *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @package BeXcellent
  */
 ?>
-	</div><!-- #main .wrapper -->
-	<footer id="colophon" role="contentinfo">
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<?php do_action( 'twentytwelve_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentytwelve' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentytwelve' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'bexcellent' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'bexcellent' ), 'WordPress' ); ?></a>
+			<span class="sep"> | </span>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'bexcellent' ), 'BeXcellent', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
 </body>
 </html>

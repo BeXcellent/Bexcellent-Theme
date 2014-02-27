@@ -1,167 +1,128 @@
 <?php
 /**
- * Implement an optional custom header for Twenty Twelve
+ * Sample implementation of the Custom Header feature
+ * http://codex.wordpress.org/Custom_Headers
  *
- * See http://codex.wordpress.org/Custom_Headers
+ * You can add an optional custom header image to header.php like so ...
+
+	<?php if ( get_header_image() ) : ?>
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+		<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
+	</a>
+	<?php endif; // End header image check. ?>
+
  *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @package BeXcellent
  */
 
 /**
- * Set up the WordPress core custom header arguments and settings.
+ * Setup the WordPress core custom header feature.
  *
- * @uses add_theme_support() to register support for 3.4 and up.
- * @uses twentytwelve_header_style() to style front-end.
- * @uses twentytwelve_admin_header_style() to style wp-admin form.
- * @uses twentytwelve_admin_header_image() to add custom markup to wp-admin form.
+ * @uses bexcellent_header_style()
+ * @uses bexcellent_admin_header_style()
+ * @uses bexcellent_admin_header_image()
  *
- * @since Twenty Twelve 1.0
+ * @package BeXcellent
  */
-function twentytwelve_custom_header_setup() {
-	$args = array(
-		// Text color and image (empty to use none).
-		'default-text-color'     => '515151',
+function bexcellent_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'bexcellent_custom_header_args', array(
 		'default-image'          => '',
-
-		// Set height and width, with a maximum value for the width.
+		'default-text-color'     => '000000',
+		'width'                  => 1000,
 		'height'                 => 250,
-		'width'                  => 960,
-		'max-width'              => 2000,
-
-		// Support flexible height and width.
 		'flex-height'            => true,
-		'flex-width'             => true,
-
-		// Random image rotation off by default.
-		'random-default'         => false,
-
-		// Callbacks for styling the header and the admin preview.
-		'wp-head-callback'       => 'twentytwelve_header_style',
-		'admin-head-callback'    => 'twentytwelve_admin_header_style',
-		'admin-preview-callback' => 'twentytwelve_admin_header_image',
-	);
-
-	add_theme_support( 'custom-header', $args );
+		'wp-head-callback'       => 'bexcellent_header_style',
+		'admin-head-callback'    => 'bexcellent_admin_header_style',
+		'admin-preview-callback' => 'bexcellent_admin_header_image',
+	) ) );
 }
-add_action( 'after_setup_theme', 'twentytwelve_custom_header_setup' );
+add_action( 'after_setup_theme', 'bexcellent_custom_header_setup' );
 
+if ( ! function_exists( 'bexcellent_header_style' ) ) :
 /**
- * Load our special font CSS file.
+ * Styles the header image and text displayed on the blog
  *
- * @since Twenty Twelve 1.2
- *
- * @return void
+ * @see bexcellent_custom_header_setup().
  */
-function twentytwelve_custom_header_fonts() {
-	$font_url = twentytwelve_get_font_url();
-	if ( ! empty( $font_url ) )
-		wp_enqueue_style( 'twentytwelve-fonts', esc_url_raw( $font_url ), array(), null );
-}
-add_action( 'admin_print_styles-appearance_page_custom-header', 'twentytwelve_custom_header_fonts' );
-
-/**
- * Style the header text displayed on the blog.
- *
- * get_header_textcolor() options: 515151 is default, hide text (returns 'blank'), or any hex value.
- *
- * @since Twenty Twelve 1.0
- */
-function twentytwelve_header_style() {
-	$text_color = get_header_textcolor();
+function bexcellent_header_style() {
+	$header_text_color = get_header_textcolor();
 
 	// If no custom options for text are set, let's bail
-	if ( $text_color == get_theme_support( 'custom-header', 'default-text-color' ) )
+	// get_header_textcolor() options: HEADER_TEXTCOLOR is default, hide text (returns 'blank') or any hex value
+	if ( HEADER_TEXTCOLOR == $header_text_color ) {
 		return;
+	}
 
-	// If we get this far, we have custom styles.
+	// If we get this far, we have custom styles. Let's do this.
 	?>
-	<style type="text/css" id="twentytwelve-header-css">
+	<style type="text/css">
 	<?php
 		// Has the text been hidden?
-		if ( ! display_header_text() ) :
+		if ( 'blank' == $header_text_color ) :
 	?>
 		.site-title,
 		.site-description {
 			position: absolute;
-			clip: rect(1px 1px 1px 1px); /* IE7 */
 			clip: rect(1px, 1px, 1px, 1px);
 		}
 	<?php
-		// If the user has set a custom color for the text, use that.
+		// If the user has set a custom color for the text use that
 		else :
 	?>
-		.site-header h1 a,
-		.site-header h2 {
-			color: #<?php echo $text_color; ?>;
+		.site-title a,
+		.site-description {
+			color: #<?php echo $header_text_color; ?>;
 		}
 	<?php endif; ?>
 	</style>
 	<?php
 }
+endif; // bexcellent_header_style
 
+if ( ! function_exists( 'bexcellent_admin_header_style' ) ) :
 /**
- * Style the header image displayed on the Appearance > Header admin panel.
+ * Styles the header image displayed on the Appearance > Header admin panel.
  *
- * @since Twenty Twelve 1.0
+ * @see bexcellent_custom_header_setup().
  */
-function twentytwelve_admin_header_style() {
+function bexcellent_admin_header_style() {
 ?>
-	<style type="text/css" id="twentytwelve-admin-header-css">
-	.appearance_page_custom-header #headimg {
-		border: none;
-		font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	}
-	#headimg h1,
-	#headimg h2 {
-		line-height: 1.84615;
-		margin: 0;
-		padding: 0;
-	}
-	#headimg h1 {
-		font-size: 26px;
-	}
-	#headimg h1 a {
-		color: #515151;
-		text-decoration: none;
-	}
-	#headimg h1 a:hover {
-		color: #21759b !important; /* Has to override custom inline style. */
-	}
-	#headimg h2 {
-		color: #757575;
-		font-size: 13px;
-		margin-bottom: 24px;
-	}
-	#headimg img {
-		max-width: <?php echo get_theme_support( 'custom-header', 'max-width' ); ?>px;
-	}
+	<style type="text/css">
+		.appearance_page_custom-header #headimg {
+			border: none;
+		}
+		#headimg h1,
+		#desc {
+		}
+		#headimg h1 {
+		}
+		#headimg h1 a {
+		}
+		#desc {
+		}
+		#headimg img {
+		}
 	</style>
 <?php
 }
+endif; // bexcellent_admin_header_style
 
+if ( ! function_exists( 'bexcellent_admin_header_image' ) ) :
 /**
- * Output markup to be displayed on the Appearance > Header admin panel.
+ * Custom header image markup displayed on the Appearance > Header admin panel.
  *
- * This callback overrides the default markup displayed there.
- *
- * @since Twenty Twelve 1.0
+ * @see bexcellent_custom_header_setup().
  */
-function twentytwelve_admin_header_image() {
-	?>
+function bexcellent_admin_header_image() {
+	$style = sprintf( ' style="color:#%s;"', get_header_textcolor() );
+?>
 	<div id="headimg">
-		<?php
-		if ( ! display_header_text() )
-			$style = ' style="display:none;"';
-		else
-			$style = ' style="color:#' . get_header_textcolor() . ';"';
-		?>
 		<h1 class="displaying-header-text"><a id="name"<?php echo $style; ?> onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-		<h2 id="desc" class="displaying-header-text"<?php echo $style; ?>><?php bloginfo( 'description' ); ?></h2>
-		<?php $header_image = get_header_image();
-		if ( ! empty( $header_image ) ) : ?>
-			<img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
+		<div class="displaying-header-text" id="desc"<?php echo $style; ?>><?php bloginfo( 'description' ); ?></div>
+		<?php if ( get_header_image() ) : ?>
+		<img src="<?php header_image(); ?>" alt="">
 		<?php endif; ?>
 	</div>
-<?php }
+<?php
+}
+endif; // bexcellent_admin_header_image
