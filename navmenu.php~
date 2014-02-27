@@ -23,7 +23,7 @@
             <li><a href=<?php echo getenv('HTTP_HOST') + "articles"?>>Articles</a></li>
             <li><a href=<?php echo getenv('HTTP_HOST') + "games"?>>Games</a></li>
             <li><a href=<?php echo getenv('HTTP_HOST') + "parents"?>>Parents</a></li>
- <li><a href=<?php echo getenv('HTTP_HOST') + "about"?>About BeXcellent</a></li>
+ <li><a href=<?php echo getenv('HTTP_HOST') + "about"?>About</a></li>
         </ul>
     </body>
 </html>
