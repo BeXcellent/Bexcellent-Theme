@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" type="text/css" href="/wp-content/themes/Bexcellent-Theme/template/menu.css">
-    </head>
-    <body>
 		<ul id="super">
 			<li id="superli"> <p>Menu</p>
 				<ul class="sub">
@@ -20,5 +14,3 @@
 				</ul>
 			</li>
 		</ul>
-	</body>
-</html>
