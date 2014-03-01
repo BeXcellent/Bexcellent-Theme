@@ -15,9 +15,9 @@ body {
 
 /* formats the content */
 #content {
-	float: left;
 	width: 67%;
-	margin-left: 200px;
+	position: relative;
+	left: 200px;
 }
 
 /* formats the sidebar to stay on the right */
