@@ -16,7 +16,6 @@ body {
 /* formats the content */
 #content {
 	float: left;
-	margin-left: 200px;
 	width: 67%;
 }
 
@@ -31,7 +30,7 @@ body {
 
 /* ONLY positions the menu div */
 #menu {
-	position: relative;
+	position: absolute;
 	top: 20px;
 	left: 20px;
 }

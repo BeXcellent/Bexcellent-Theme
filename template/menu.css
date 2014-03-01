@@ -66,6 +66,10 @@ li#superli {
 	display: block;
 }
 
+#superli:visited .sub a, #superli:visited .sub li {
+	color: rgb(25, 25, 25);
+}
+
 #superli p {
 	margin: 0% 30% 0% 30%;
 	line-height: 140px;
