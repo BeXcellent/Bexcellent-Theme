@@ -14,4 +14,4 @@ get_header(); ?>
 		</div>
 		<div id="title"> <img src="http://95.85.42.215/wp-content/uploads/2014/03/title.jpg" alt="BeXcellent"> </div>
 		<div id="sidebar"> where the sidebar will be </div>
-		<div id="content"> where the content will be
+		<div id="content">
