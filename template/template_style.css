@@ -26,6 +26,9 @@ body {
 	width: 17%;
 	text-align: left;
 	height: 400px;
+	
+	position: relative;
+	top: -100px;
 }
 
 /* ONLY positions the menu div */
