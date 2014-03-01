@@ -11,8 +11,8 @@
 get_header();?>
 			</div>
 	<div id="primary" class="site-content">
+				<iframe src="/wp-content/themes/Bexcellent-Theme/navmenu.php" seamless scrolling="no" height="60" width="1309"></iframe>
 		<div id="content" role="main">
-			<?php include "/var/www/wp-content/themes/Bexcellent-Theme/navmenu.php" ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php if ( has_post_thumbnail() ) : ?>
 					<div class="entry-page-image">
