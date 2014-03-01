@@ -4,7 +4,7 @@ body {
 
 /* formatting the title div */
 #title {
-	margin: 1% 0% 0.5% 16%;
+	margin: 1% 0% 0.5% 22%;
 }
 
 /* formatting of title image*/
@@ -17,6 +17,7 @@ body {
 #content {
 	float: left;
 	width: 67%;
+	margin-left: 200px;
 }
 
 /* formats the sidebar to stay on the right */
