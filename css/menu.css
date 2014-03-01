@@ -5,7 +5,7 @@
     display:inline;
 }
 
-ul#navmenu, ul.sub {
+ul#navmenu, ul#navmenu.sub {
     list-style-type: disc;
 }
 
