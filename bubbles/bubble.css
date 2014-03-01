@@ -1,0 +1,64 @@
+body#home {
+	background-image: url('http://95.85.42.215/wp-content/uploads/2014/03/background.jpg'); /* Be cellent */
+	background-position: 2px 120px;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.linkbubble {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	z-index: 10;
+}
+
+img.linkbubble {
+	opacity: 70;
+}
+
+.smallbubble {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	z-index: 5;
+}
+
+
+/* Start of menu stuffs 
+
+
+ul#menu, ul.sub {
+	list-style-type: none;
+}
+
+ul#menu li img, ul#menu li a, ul#menu li {
+	width:	120px;
+	height: 120px;
+	float: left;
+	position: relative;
+}
+
+ul#menu li p {
+	text-decoration: none;
+}
+
+ul#menu .sub {
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: -20px;
+}
+
+ul#menu li:hover .sub {
+	display: block;
+}
+
+ul#menu li:hover  a, ul#menu li:hover img {
+	width: 160px;
+	height: 160px;
+}
+
+ul.sub li:hover {
+	width: 120px;
+	height: 120px;
+}

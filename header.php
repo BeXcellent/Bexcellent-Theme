@@ -15,6 +15,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<link rel="stylesheet" type="text/css" href="/wp-content/uploads/2014/03/bubble.css">
+<script src="/wp-content/uploads/2014/03/bubble.js"></script>
 <?php wp_head(); ?>
 </head>
 
