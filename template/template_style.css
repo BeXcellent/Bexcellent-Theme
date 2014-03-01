@@ -30,7 +30,7 @@ body {
 
 /* ONLY positions the menu div */
 #menu {
-	position: absolute;
+	position: relative;
 	top: 20px;
 	left: 20px;
 }
