@@ -12,8 +12,7 @@ get_header();?>
 			</div>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-			<?php require '/wp-content/themes/Bexcellent-Theme/template/template.php' ?>
-			
+			<?php include '/wp-content/themes/Bexcellent-Theme/template/navmenu.php'; ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php if ( has_post_thumbnail() ) : ?>
 					<div class="entry-page-image">
