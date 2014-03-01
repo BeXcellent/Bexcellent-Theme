@@ -11,7 +11,7 @@
 get_header();?>
 			</div>
 	<div id="primary" class="site-content">
-				<iframe src="/wp-content/themes/Bexcellent-Theme/navmenu.php" seamless scrolling="no" height="60" width="1309"></iframe>
+				<iframe src="/wp-content/themes/Bexcellent-Theme/navmenu.php" seamless scrolling="no" height="65" width="1309"></iframe>
 		<div id="content" role="main">
 <link rel="stylesheet" type="text/css" target="_parent" href="css/clearcss.css">
 			<?php while ( have_posts() ) : the_post(); ?>

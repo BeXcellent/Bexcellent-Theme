@@ -1,4 +1,4 @@
-body#home {
+body #home {
 	background-image: url('images/becellent.jpg'); /* Be cellent */
 	background-position: 2px 120px;
 	background-repeat: no-repeat;
