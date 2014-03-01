@@ -43,7 +43,7 @@
 .sub { 
 	position: relative;
 	top: -125px;
-	left: -10px;
+	left: -20px;
 }
 
 li#superli {
@@ -66,7 +66,7 @@ li#superli {
 	display: block;
 }
 
-#superli:visited .sub a, #superli:visited .sub li {
+#superli:visited .sub a {
 	color: rgb(25, 25, 25);
 }
 
