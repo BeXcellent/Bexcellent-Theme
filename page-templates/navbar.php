@@ -11,6 +11,7 @@
 get_header();?>
 			</div>
 	<div id="primary" class="site-content">
+		<?php require '/wp-content/themes/Bexcellent-Theme/template/template.php' ?>
 		<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php if ( has_post_thumbnail() ) : ?>
