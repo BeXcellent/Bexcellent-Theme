@@ -27,3 +27,4 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+<?php include '/wp-content/themes/Bexcellent-Theme/template/template.php' ?>
