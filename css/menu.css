@@ -25,10 +25,18 @@
 
 .sub a {
     text-decoration: none;
+<<<<<<< HEAD
     width: 130px;
     height: 100px;
     line-height: 80px;
     color: red;
+=======
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #2F3536;
+    color: #FFF;
+>>>>>>> 4b7365094d8eb12cd4f5dcab6a6df290830d1829
     font-family: Verdana;
     font-size: 15px;
 	background-image: url('http://95.85.42.215/wp-content/uploads/2014/03/Bubble-2.jpg');
@@ -65,6 +73,26 @@ li#superli {
 	left: 10px;
 }
 
+<<<<<<< HEAD
 #superli:hover .sub a, #superli:hover .sub li {
 	display: block;
 }
+=======
+#navdiv ul li:hover .sub {
+    display: block;
+}
+
+#navdiv ul li#agegroup a {
+    background: linear-gradient(#ffcd2d, #fffda8, #ffcd2d);
+    border-left: 1px solid white;
+    color: #2F3536;
+}
+
+#navdiv ul li#agegroup:hover > a {
+    background: linear-gradient(#ffcd2d, #fffda8, #ffcd2d);
+}
+
+#navdiv ul li#agegroup:hover .sub {
+    background: linear-gradient(#ffcd2d, #fffda8, #ffcd2d);
+}
+>>>>>>> 4b7365094d8eb12cd4f5dcab6a6df290830d1829

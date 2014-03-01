@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Bubble</title>
-		<link rel="stylesheet" type="text/css" href="bubble.css">
+	<link rel="stylesheet" type="text/css" href="./bubble.css">
     </head>
     <body id="home" onload="start();">
 		<script src="bubble.js"></script>
@@ -37,11 +37,7 @@
 		</div>
 		<div id ="l10" class="linkbubble" style="left: 95px; top: 480px;">
 			<img class="linkbubble" src="images/12-18.png" alt="12-18">
-		</div>
-		
-		<!--
-		<div id ="s1" class="smallbubble" style="left: 300px; top: 100px;">
-			<img class="smallbubble" src="images/small_bubble.jpg" alt="Small Bubble 1">
-		</div>-->
+			<img class="linkbubble" src="images/video.png" alt="Videos">
+		</div> 
 	</body>
 </html>

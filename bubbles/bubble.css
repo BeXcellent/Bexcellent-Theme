@@ -1,5 +1,5 @@
 body#home {
-	background-image: url('http://95.85.42.215/wp-content/uploads/2014/03/background.jpg'); /* Be cellent */
+	background-image: url('images/becellent.jpg'); /* Be cellent */
 	background-position: 2px 120px;
 	background-repeat: no-repeat;
 	z-index: -1;
@@ -12,7 +12,7 @@ body#home {
 	z-index: 10;
 }
 
-img.linkbubble {
+img .linkbubble {
 	opacity: 70;
 }
 
