@@ -13,6 +13,7 @@ get_header();?>
 	<div id="primary" class="site-content">
 				<iframe src="/wp-content/themes/Bexcellent-Theme/navmenu.php" seamless scrolling="no" height="60" width="1309"></iframe>
 		<div id="content" role="main">
+<link rel="stylesheet" type="text/css" target="_parent" href="css/clearcss.css">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php if ( has_post_thumbnail() ) : ?>
 					<div class="entry-page-image">
