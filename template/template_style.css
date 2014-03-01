@@ -32,6 +32,6 @@ body {
 /* ONLY positions the menu div */
 #menu {
 	position: relative;
-	top: 0px;
+	top: 15px;
 	left: 0px;
 }
