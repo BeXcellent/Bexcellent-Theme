@@ -16,6 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" type="text/css" href="/wp-content/uploads/2014/03/bubble.css">
 <script src="/wp-content/uploads/2014/03/bubble.js"></script>
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/Bexcellent-Theme/template/template_style.css">
 <?php wp_head(); ?>
 </head>
 
