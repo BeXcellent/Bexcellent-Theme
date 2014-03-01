@@ -1,0 +1,34 @@
+body {
+	background-color:#FFF;
+}
+
+/* formatting the title div */
+#title {
+	margin: 3% 22% 2% 15%;
+}
+
+/* formatting of title image*/
+#title img {
+	height: 150px;
+	width: 650px;
+}
+
+
+
+
+/* formats the content */
+#content {
+	float: left;
+	border: 3px solid black;
+}
+
+/* formats the sidebar to stay on the right */
+#sidebar {
+	float: right;
+	width: 17%;
+	text-align: left;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	height: 300px;
+	background-color: #909090;
+}

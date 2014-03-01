@@ -25,7 +25,7 @@
     width: 150px;
     height: 50px;
     line-height: 50px;
-    background-color: #2F3536;
+    background-image: url('/wp-content/themes/Bexcellent-Theme/bubbles/images/single_bubble.png');
     color: #FFF;
     font-family: Verdana;
     font-size: 15px;
@@ -52,7 +52,7 @@
 }
 
 #navdiv ul li#agegroup a {
-    background: linear-gradient(#ffcd2d, #fffda8, #ffcd2d);
+    background: #000;;
     border-left: 1px solid white;
     color: #2F3536;
 }
