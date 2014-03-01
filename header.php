@@ -14,7 +14,13 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" target="_parent" href="<?php bloginfo('template_directory'); ?>/css/menu.css">
+=======
+
+<link rel="stylesheet" type="text/css" href="/wp-content/uploads/2014/03/bubble.css">
+<script src="/wp-content/uploads/2014/03/bubble.js"></script>
+>>>>>>> c2c9a85a19ed4d91d47aa9c241c1c0cafac9782a
 <?php wp_head(); ?>
 </head>
 
