@@ -10,11 +10,11 @@
  */
 get_header(); ?>
 		<div id="menu">
-			<?php include './../navmenu.php'; ?>
+			<?php include '/wp-content/themes/Bexcellent-Theme/navmenu.php'; ?>
 		</div>
-		<div id="title"> <img src="./../title.jpg" alt="BeXcellent"> </div>
+		<div id="title"> <img src="/wp-content/themes/Bexcellent-Theme/title.jpg" alt="BeXcellent"> </div>
 		<div id="sidebar"> <?php get_sidebar(); ?> </div>
-		<div id="contentmine"
+		<div id="contentmine">
 
 			<div id="primary" class="site-content">
 				<div id="content" role="main">

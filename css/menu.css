@@ -31,7 +31,7 @@
     color: rgb(25, 25, 25);
     font-family: Jivetalk;
     font-size: 18pt;
-	background-image: url('http://95.85.42.215/wp-content/uploads/2014/03/bubble-1.jpg');
+	background-image: url('/wp-content/uploads/2014/03/bubble-1.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	
@@ -48,7 +48,7 @@
 
 li#superli {
 	display: block;
-	background-image: url('http://95.85.42.215/wp-content/uploads/2014/03/Bubble-2.jpg');
+	background-image: url('/wp-content/uploads/2014/03/Bubble-2.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 130px;
