@@ -14,8 +14,6 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="stylesheet" type="text/css" href="/wp-content/uploads/2014/03/bubble.css">
-<script src="/wp-content/uploads/2014/03/bubble.js"></script>
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/Bexcellent-Theme/css/template_style.css">
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/Bexcellent-Theme/css/menu.css">
 <?php wp_head(); ?>

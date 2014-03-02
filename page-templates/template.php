@@ -9,9 +9,7 @@
  * @since Twenty Twelve 1.0
  */
 get_header(); ?>
-		<div id="menu">
-			<?php include '/wp-content/themes/Bexcellent-Theme/navmenu.php'; ?>
-		</div>
+		<div id="menu"> <?php include '/wp-content/themes/Bexcellent-Theme/navmenu.php'; ?> </div>
 		<div id="title"> <img src="/wp-content/themes/Bexcellent-Theme/title.jpg" alt="BeXcellent"> </div>
 		<div id="sidebar"> <?php get_sidebar(); ?> </div>
 		<div id="contentmine">
