@@ -9,7 +9,7 @@ body {
 
 /* formatting of title image*/
 #title img {
-	height: 175px;
+	height: 225px;
 	width: 80%;
 }
 
@@ -34,6 +34,6 @@ body {
 /* ONLY positions the menu div */
 #menu {
 	position: relative;
-	top: 15px;
-	left: 0px;
+	top: 55px;
+	left: -10px;
 }
