@@ -9,7 +9,22 @@
  * @since Twenty Twelve 1.0
  */
 get_header(); ?>
-		<div id="menu"> <?php include '/wp-content/themes/Bexcellent-Theme/navmenu.php'; ?> </div>
+		<div id="menu"> 
+			<ul id="super">
+	<li id="superli"> <p>Menu</p>
+		<ul class="sub">
+			<li><a href="/">Home</a></li>
+			<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/about">About</a></li>
+			<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/age-selection">Age</a></li>
+			<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/news">News</a></li>
+			<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/gallery">Gallery</a></li>
+			<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/articles">Articles</a></li>
+			<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/games">Games</a></li>
+			<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/parents">Parents</a></li>
+		</ul>
+	</li>
+</ul>
+		 </div>
 		<div id="title"> <img src="/wp-content/themes/Bexcellent-Theme/title.jpg" alt="BeXcellent"> </div>
 		<div id="sidebar"> <?php get_sidebar(); ?> </div>
 		<div id="contentmine">
