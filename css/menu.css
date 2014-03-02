@@ -1,52 +1,83 @@
-#navdiv
-{
-    margin: 0px;
-    padding: 0px;
-    display:inline;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
-#navdiv ul, ul.sub{
-    list-style-type: disc;
+#super, .sub{
+    list-style-type: none;
 }
 
-#navdiv ul li {
-    width: 150px;
+.sub li {
     text-align: center;
-    float: left;
     position: relative;
-    border-right: solid white 1px;
-    /*border-top: solid white 1px;*/
-    border-bottom: solid white 1px;
+	top: 101px;
+	left: 0px;
+    /*border-right: solid white 1px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;*/
+	
+	width: 130px;
+	height: 100px;
+	
+	display: none;
+	z-index: 1;
 }
 
-#navdiv ul a {
-    display: block;
+.sub a {
     text-decoration: none;
+<<<<<<< HEAD
+    width: 130px;
+    height: 100px;
+    line-height: 80px;
+    color: red;
+=======
     width: 150px;
     height: 50px;
     line-height: 50px;
     background-color: #2F3536;
     color: #FFF;
+>>>>>>> 4b7365094d8eb12cd4f5dcab6a6df290830d1829
     font-family: Verdana;
     font-size: 15px;
+	background-image: url('http://95.85.42.215/wp-content/uploads/2014/03/Bubble-2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+	display: none;
+	
+	z-index: 2;
 }
 
-#navdiv ul ul.sub a {
-    margin-top: 1px;
-    border: 1px solid white bottom right left;
+.sub {
+	position: relative;
+	top: -103px;
+	left: -2px;
 }
 
-#navdiv ul li:hover > a {
-    background-color: #808080;
+li#superli {
+	display: block;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	background-image: url('http://95.85.42.215/wp-content/uploads/2014/03/bubble-1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 130px;
+	height: 100px;
+	z-index: 3;
 }
 
-#navdiv ul .sub {
-    display: none;
-    position: absolute;
-    top: 51px;
-    left: 0px;
+#super {
+	position: absolute;
+	top: 10px;
+	left: 10px;
 }
 
+<<<<<<< HEAD
+#superli:hover .sub a, #superli:hover .sub li {
+	display: block;
+}
+=======
 #navdiv ul li:hover .sub {
     display: block;
 }
@@ -64,3 +95,4 @@
 #navdiv ul li#agegroup:hover .sub {
     background: linear-gradient(#ffcd2d, #fffda8, #ffcd2d);
 }
+>>>>>>> 4b7365094d8eb12cd4f5dcab6a6df290830d1829
