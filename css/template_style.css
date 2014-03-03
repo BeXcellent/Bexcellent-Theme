@@ -25,11 +25,10 @@ body {
 	float: right;
 	width: 17%;
 	text-align: left;
-	height: 100%;
+	height: 1000px;
 	
 	position: relative;
 	top: -160px;
-	background-color: #437fc8;
 }
 
 /* ONLY positions the menu div */
