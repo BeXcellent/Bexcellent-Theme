@@ -23,7 +23,7 @@ function start()
 	setInterval('path_3(\'l10\')', fps);
 
 	//small bubbles
-	setInterval('path_8(\'s1\')', fps);
+	//setInterval('path_8(\'s1\')', fps);
 }
 
 //initialises the phase, count and cycles arrays
