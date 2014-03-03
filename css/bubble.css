@@ -7,16 +7,16 @@
 
 .linkbubble {
 	position: absolute;
-	width: 140px;
-	height: 140px;
+	width: 200px;
+	height: 200px;
 	z-index: 10;
 	
 }
 
 img.linkbubble {
 	opacity: 70;
-	width: 140px;
-	height: 140px;
+	width: 200px;
+	height: 200px;
 }
 
 .smallbubble {
