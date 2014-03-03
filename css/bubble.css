@@ -10,9 +10,12 @@
 	width: 140px;
 	height: 140px;
 	z-index: 10;
+	
+	/* to check that the css file is getting through */
+	border: 2px solid red;
 }
 
-img .linkbubble {
+img.linkbubble {
 	opacity: 70;
 	width: 140px;
 	height: 140px;
