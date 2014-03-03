@@ -9,8 +9,7 @@
  * @since Twenty Twelve 1.0
  */
  get_header(); ?>
-<script src="/wp-content/themes/Bexcellent-Theme/js/bubble.js"></script>
-<div id="bubble" onload="start();"> 
+<div id="bubble"> 
 		<div id ="l1" class="linkbubble" style="left: 145px; top: 155px;">
 			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/videos"><img class="linkbubble" src="/wp-content/uploads/2014/03/video.png" alt="Videos"></a>
 		</div> 

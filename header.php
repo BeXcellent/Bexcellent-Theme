@@ -17,7 +17,6 @@
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/Bexcellent-Theme/css/template_style.css">
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/Bexcellent-Theme/css/menu.css">
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/Bexcellent-Theme/css/bubble.css">
-<script src="/wp-content/themes/Bexcellent-Theme/js/bubble.js"></script>
 <?php wp_head(); ?>
 </head>
 
