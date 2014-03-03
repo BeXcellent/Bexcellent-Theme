@@ -11,7 +11,7 @@
  get_header(); ?>
 <div id="bubble"> 
 		<div id ="l1" class="linkbubble" style="left: 145px; top: 155px;">
-			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/videos"><img class="linkbubble" src="/wp-content/uploads/2014/03/video.png" alt="Videos"></a>
+			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/gallery/videos"><img class="linkbubble" src="/wp-content/uploads/2014/03/video.png" alt="Videos"></a>
 		</div> 
 		<div id ="l2" class="linkbubble" style="left: 295px; top: 200px;">
 			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/articles"><img class="linkbubble" src="/wp-content/uploads/2014/03/articles.png" alt="Articles"></a>
@@ -20,7 +20,7 @@
 			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/about"><img class="linkbubble" src="/wp-content/uploads/2014/03/about.png" alt="About"></a>
 		</div>
 		<div id ="l4" class="linkbubble" style="left: 475px; top: 155px;">
-			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/photos"><img class="linkbubble" src="/wp-content/uploads/2014/03/photos.png" alt="Photos"></a>
+			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/gallery/photos"><img class="linkbubble" src="/wp-content/uploads/2014/03/photos.png" alt="Photos"></a>
 		</div>
 		<div id ="l5" class="linkbubble" style="left: 270px; top: 415px;">
 			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/games"><img class="linkbubble" src="/wp-content/uploads/2014/03/games.png" alt="Games"></a>
