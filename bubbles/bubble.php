@@ -6,8 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="./bubble.css">
     </head>
     <body id="home" onload="start();">
-		<script src="bubble.js"></script>
-
 		<div id ="l1" class="linkbubble" style="left: 145px; top: 155px;">
 			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/videos"><img class="linkbubble" src="images/video.png" alt="Videos"></a>
 		</div> 
