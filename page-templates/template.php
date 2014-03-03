@@ -26,7 +26,7 @@ get_header(); ?>
 			</ul>
 		 </div>
 		<div id="title"> <img src="/wp-content/themes/Bexcellent-Theme/title.jpg" alt="BeXcellent"> </div>
-		<div id="sidebar"> <?php get_sidebar(); ?> </div>
+		<div id="sidebar"> <?php include '/wp-content/themes/Bexcellent-Theme/template_sidebar.php'; ?> </div>
 		<div id="contentmine">
 
 			<div id="primary" class="site-content">
@@ -46,3 +46,5 @@ get_header(); ?>
 				</div><!-- #content -->
 			</div><!-- #primary -->
 		</div>
+
+<?php get_footer(); ?>
