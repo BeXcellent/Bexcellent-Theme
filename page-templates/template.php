@@ -14,13 +14,13 @@ get_header(); ?>
 				<li id="superli"> <p>Menu</p>
 					<ul class="sub">
 						<li><a href="/">Home</a></li>
-						<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/about">About</a></li>
-						<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/age-selection">Age</a></li>
-						<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/news">News</a></li>
-						<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/gallery">Gallery</a></li>
-						<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/articles">Articles</a></li>
-						<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/games">Games</a></li>
-						<li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/parents">Parents</a></li>
+						<li><a href="<?php echo 'http://' . $_SERVER['SERVER_NAME']; ?>/about">About</a></li>
+						<li><a href="<?php echo 'http://' . $_SERVER['SERVER_NAME']; ?>/age-selection">Age</a></li>
+						<li><a href="<?php echo 'http://' . $_SERVER['SERVER_NAME']; ?>/news">News</a></li>
+						<li><a href="<?php echo 'http://' . $_SERVER['SERVER_NAME']; ?>/gallery">Gallery</a></li>
+						<li><a href="<?php echo 'http://' . $_SERVER['SERVER_NAME']; ?>/articles">Articles</a></li>
+						<li><a href="<?php echo 'http://' . $_SERVER['SERVER_NAME']; ?>/games">Games</a></li>
+						<li><a href="<?php echo 'http://' . $_SERVER['SERVER_NAME']; ?>/parents">Parents</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -32,7 +32,7 @@ get_header(); ?>
 				<?php get_search_form(); ?>
 			</aside>
 			<aside>
-				<p>This is where whatever functionality we decide for the sidebar would go</p>
+				<?php get_sidebar(); ?>
 			</aside>
 		</div>
 
