@@ -21,7 +21,6 @@ get_header();
 					<h2 color="#484848" align="center">We couldn't find that page!</h2>
 					<h3 color="#484848" align="center">Try searching for it.</h3>
 					<h3 color="#484848" align="center">Or (If you want to) You can look at this picture about CfE instead...</h3>
-					<img src="cfe.jpg" align="center" />
 					<?php get_search_form(); ?>
 				</div>
 			</section>
