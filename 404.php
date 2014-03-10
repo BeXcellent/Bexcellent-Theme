@@ -14,13 +14,13 @@ get_header();
 			<section class="error-404 not-found">
 
 				<div class="page-content">
-				<img src="/var/www/wp-content/themes/Bexcellent-Theme/sadface.jpg" align="center" />
+				<img src="/wp-content/themes/Bexcellent-Theme/sadface.jpg" align="center" />
 					<h1 color="#C00000" align="center">Well this is embarrasing...</h1>
 					<h2 color="#484848" align="center">We couldn't find that page!</h2>
 					<h3 color="#484848" align="center">Try searching for it.</h3>
 					<?php get_search_form(); ?>
 					<h3 color="#484848" align="center">Or (If you want to) You can look at this picture about CfE instead...</h3>
-					<img src="/var/www/wp-content/themes/Bexcellent-Theme/cfe.jpg" align="center" />
+					<img src="/wp-content/themes/Bexcellent-Theme/cfe.jpg" align="center" />
 				</div>
 			</section>
 

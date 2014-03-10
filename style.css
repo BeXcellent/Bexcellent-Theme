@@ -1,3 +1,7 @@
+/**************/
+/* Bubble.css */
+/**************/
+
 #bubble {
 	background-image: url('/wp-content/uploads/2014/03/becellent.jpg');
 	background-position: 2px 120px;
@@ -67,6 +71,10 @@ img.linkbubble {
 	z-index: 2;
 }
 
+/**************/
+/* NavBar.css */
+/**************/
+
 .sub { 
 	position: relative;
 	top: -125px;
@@ -108,25 +116,28 @@ body {
 	background-color: #FFF;
 }
 
-/* formatting the title div */
+/**********************/
+/* Template_Style.css */
+/**********************/
+
 #title {
 	margin: 1% 0% 0.5% 17%;
 }
 
-/* formatting of title image*/
+
 #title img {
 	height: 225px;
 	width: 80%;
 }
 
-/* formats the content */
+
 #contentmine {
 	width: 67%;
 	position: relative;
 	left: 230px;
 }
 
-/* formats the sidebar to stay on the right */
+
 #sidebar {
 	float: right;
 	width: 17%;
@@ -137,9 +148,54 @@ body {
 	top: -160px;
 }
 
-/* ONLY positions the menu div */
+
 #menu {
 	position: relative;
 	top: 55px;
 	left: -10px;
+}
+/*****************************************/
+/* Custom stuff to make things look nice */
+/*****************************************/
+
+h1,h2,h3,h4,h5,p,abbr,form,a
+{
+margin-top:10px;
+margin-left:10px;
+}
+
+a:link
+{
+color:#000000;
+}
+a:visited
+{
+color:#474747;
+}
+a:hover
+{
+color:#A4A4A4;
+}
+a:active
+{
+color:#A4A4A4;
+text-decoration:none;
+}
+img
+{
+border-style:double;
+border-width:3px;
+border-color:#A4A4A4;
+padding:5px;
+}
+.page-title
+{
+text-decoration:underline;
+}
+.box div
+{
+border-style:dashed;
+border-color:#00001F;
+padding:5px;
+border-width:3px;
 }
