@@ -83,7 +83,7 @@ img.linkbubble {
 
 li#superli {
 	display: block;
-	background-image: url('/wp-content/uploads/2014/03/Bubble-2.jpg');
+	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 130px;

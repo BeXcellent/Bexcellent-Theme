@@ -181,6 +181,12 @@ a:active
 color:#A4A4A4;
 text-decoration:none;
 }
+.center
+{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
 /*
 img
 {
