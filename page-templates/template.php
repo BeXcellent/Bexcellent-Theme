@@ -11,7 +11,8 @@
 get_header(); ?>
 		<div id="menu"> 
 			<ul id="super">
-				<li id="superli"> <p>Menu</p>
+				<li id="superli"> 
+<p>Menu</p>
 					<ul class="sub">
 						<li><a href="/">Home</a></li>
 						<li><a href="<?php echo 'http://' . $_SERVER['SERVER_NAME']; ?>/about">About</a></li>

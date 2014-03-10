@@ -181,6 +181,7 @@ a:active
 color:#A4A4A4;
 text-decoration:none;
 }
+/*
 img
 {
 border-style:double;
@@ -188,13 +189,16 @@ border-width:3px;
 border-color:#A4A4A4;
 padding:5px;
 }
-.page-title
+
+h1.page-title
 {
 text-decoration:underline;
 }
-.box div
+div.box
 {
 border-style:dashed;
 border-color:#00001F;
 padding:5px;
+border-width:3px;
 }
+*/

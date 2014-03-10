@@ -83,7 +83,7 @@ img.linkbubble {
 
 li#superli {
 	display: block;
-	background-image: url('/wp-content/uploads/2014/03/Bubble-2.jpg');
+	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 130px;
@@ -181,6 +181,7 @@ a:active
 color:#A4A4A4;
 text-decoration:none;
 }
+/*
 img
 {
 border-style:double;
@@ -188,14 +189,16 @@ border-width:3px;
 border-color:#A4A4A4;
 padding:5px;
 }
-.page-title
+
+h1.page-title
 {
 text-decoration:underline;
 }
-.box div
+div.box
 {
 border-style:dashed;
 border-color:#00001F;
 padding:5px;
 border-width:3px;
 }
+*/
