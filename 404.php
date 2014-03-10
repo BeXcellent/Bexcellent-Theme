@@ -21,8 +21,6 @@ get_header();
 				<div align="center">
 					<?php get_search_form(); ?>
 			</div>					
-<h3 color="#484848" align="center">Or (If you want to) You can look at this picture about CfE instead...</h3>
-					<img src="/wp-content/themes/Bexcellent-Theme/cfe.jpg" class="center" />
 				</div>
 			</section>
 
