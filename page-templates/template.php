@@ -29,9 +29,6 @@ get_header(); ?>
 		<div id="title"> <img src="/wp-content/themes/Bexcellent-Theme/title.jpg" alt="BeXcellent"> </div>
 
 		<div id="sidebar">
-			<aside id="search" class="widget widget_search">
-				<?php get_search_form(); ?>
-			</aside>
 			<aside>
 				<?php get_sidebar(); ?>
 			</aside>
