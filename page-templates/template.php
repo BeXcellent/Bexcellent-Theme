@@ -1,8 +1,8 @@
 <?php
 /**
- * Template Name: Template
+ * Template Name: Sidebar
  *
- * Description: New navbar testing stuff
+ * Description: Includes header and sidebar, Top image of bexcellent
  *
  * @package WordPress
  * @subpackage BeXcellent
