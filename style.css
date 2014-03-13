@@ -192,6 +192,12 @@ footer.site-footer
 {
 background:#606060;
 }
+div.bubbleback
+{
+background-image:url('/wp-content/themes/Bexcellent-Theme/bubble.jpg');
+background-size:cover;
+background-repeat:none;
+}
 /*
 h1.page-title
 {

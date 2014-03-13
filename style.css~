@@ -188,16 +188,15 @@ margin-left:auto;
 margin-right:auto;
 }
 
-img:not(.linkbubbble)
-{
-border-style:double;
-border-width:3px;
-border-color:#A4A4A4;
-padding:5px;
-}
 footer.site-footer
 {
 background:#606060;
+}
+div.bubbleback
+{
+background-image:url('./bubble.jpg');
+background-size:cover;
+background-repeat:none;
 }
 /*
 h1.page-title
