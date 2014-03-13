@@ -188,12 +188,9 @@ margin-left:auto;
 margin-right:auto;
 }
 
-img:not(.linkbubbble)
+footer.site-footer
 {
-border-style:double;
-border-width:3px;
-border-color:#A4A4A4;
-padding:5px;
+background:#606060;
 }
 /*
 h1.page-title

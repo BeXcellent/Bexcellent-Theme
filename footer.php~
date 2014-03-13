@@ -10,11 +10,9 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer" role="contentinfo" background:#000000>
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'bexcellent' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'bexcellent' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'bexcellent' ), 'BeXcellent', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<h1>SUUUUUUP</h1>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
