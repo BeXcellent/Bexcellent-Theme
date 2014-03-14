@@ -193,6 +193,7 @@ footer.site-footer
 {
 background:#606060;
 }
+
 div.bubbleback
 {
 background-image:url('/wp-content/themes/Bexcellent-Theme/bubbleback.png');
@@ -203,6 +204,8 @@ width:90%
 margin-left:auto;
 margin-right:auto;
 text-align:center;
+margin-top:10px;
+margin-bottom:10px;
 }
 /*
 h1.page-title

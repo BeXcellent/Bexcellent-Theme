@@ -195,7 +195,7 @@ background:#606060;
 }
 div.bubbleback
 {
-background-image:url('/wp-content/themes/Bexcellent-Theme/bubble.jpg');
+background-image:url('/wp-content/themes/Bexcellent-Theme/bubbleback.png');
 background-size: 100% 100%;
 background-repeat:none;
 display:block;
