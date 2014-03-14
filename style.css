@@ -205,12 +205,13 @@ margin-left:auto;
 margin-right:auto;
 text-align:center;
 }
+/*
 div.bubbleback>*
 {
 position:absolute;
 top:30px;
 }
-/*
+
 h1.page-title
 {
 text-decoration:underline;
