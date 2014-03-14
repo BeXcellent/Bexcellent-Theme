@@ -207,10 +207,6 @@ text-align:center;
 margin-top:10px;
 margin-bottom:10px;
 }
-div>p,h1,h2,h3,h4,h5,img,a,div
-{
-
-}
 /*
 h1.page-title
 {
