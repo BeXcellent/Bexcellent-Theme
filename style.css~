@@ -155,24 +155,6 @@ body {
 	top: 55px;
 	left: -10px;
 }
-/*************/
-/* Dropdowns */
-/*************/
-ul.dropdown li.dropdown {
-    position: relative;
-}
-
-ul.dropdown ul.dropdown {
-    position: absolute;
-    top: 1em;
-    left: 0;
-    display: none;
-}
-
-ul.dropdown > li.dropdown:hover ul {
-    display: block;
-}
-
 /*****************************************/
 /* Custom stuff to make things look nice */
 /*****************************************/
@@ -223,13 +205,12 @@ margin-left:auto;
 margin-right:auto;
 text-align:center;
 }
-/*
 div.bubbleback>*
 {
 position:absolute;
 top:30px;
 }
-
+/*
 h1.page-title
 {
 text-decoration:underline;
