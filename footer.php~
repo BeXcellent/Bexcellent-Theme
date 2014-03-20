@@ -10,9 +10,9 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo" background:#000000>
+	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<h1>SUUUUUUP</h1>
+			//Such footer
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
