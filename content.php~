@@ -40,7 +40,7 @@
 			?>
 			<span class="cat-links">
 				<li class="dropdown">Categories
-        				<ul>
+        				<ul class="dropdown">
             					<?php
 							foreach ( $tags_list as $tag ) {
 								echo '<li class="dropdown">' . $tag . '</li>';
@@ -58,7 +58,7 @@
 			?>
 			<span class="tags-links">
 				<li class="dropdown">Tags
-        				<ul>
+        				<ulclass="dropdown">
             					<?php
 						foreach ( $tags_list as $tag ) {
 							echo '<li class="dropdown">' . $tag . '</li>';
