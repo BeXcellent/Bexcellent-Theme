@@ -9,7 +9,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<?php include '/wp-content/themes/Bexcellent-Theme/page-templates/template.pgp';?>
+		<h1>SINGLE</h1>
+		<?php include './wp-content/themes/Bexcellent-Theme/page-templates/template.php';?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
