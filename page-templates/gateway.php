@@ -10,6 +10,18 @@
  */
  get_header(); ?>
 <div id="bubble"> 
+		<div id="extraBubble1" class="linkbubble" style="left:500px; top:200px;">
+			<img class="linkbubble" src="./wp-content/themes/Bexcellent-Theme/singleBubble.jpg" alt="">
+		</div>
+		<div id="extraBubble2" class="linkbubble" style="left:300px; top:200px;">
+			<img class="linkbubble" src="./wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
+		</div>
+		<div id="extraBubble3" class="linkbubble" style="left:100px; top:500px;">
+			<img class="linkbubble" src="./wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
+		</div>
+		<div id="extraBubble4" class="linkbubble" style="left:300px; top:500px;">
+			<img class="linkbubble" src="./wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
+		</div>
 		<div id ="l1" class="linkbubble" style="left: 145px; top: 155px;">
 			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/gallery/videos"><img class="linkbubble" src="/wp-content/uploads/2014/03/video.png" alt="Videos"></a>
 		</div> 
@@ -41,18 +53,7 @@
 			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/12-18"><img class="linkbubble" src="/wp-content/uploads/2014/03/12-18.png" alt="12-18"></a>
 		</div> 
 </div>
-		<div id="extraBubble1" class="linkbubble" style="left:500px; top:200px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
-		<div id="extraBubble2" class="linkbubble" style="left:300px; top:200px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
-		<div id="extraBubble3" class="linkbubble" style="left:100px; top:500px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
-		<div id="extraBubble4" class="linkbubble" style="left:300px; top:500px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
+
 
 		
 <div id="contentgateway">

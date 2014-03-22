@@ -42,31 +42,16 @@
 		</div> 
 </div>
 		<div id="extraBubble1" class="linkbubble" style="left:500px; top:200px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
+			<img class="linkbubble" src="./wp-content/themes/Bexcellent-Theme/singleBubble.jpg" alt="">
 		</div>
 		<div id="extraBubble2" class="linkbubble" style="left:300px; top:200px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
+			<img class="linkbubble" src="./wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
 		</div>
 		<div id="extraBubble3" class="linkbubble" style="left:100px; top:500px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
+			<img class="linkbubble" src="./wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
 		</div>
 		<div id="extraBubble4" class="linkbubble" style="left:300px; top:500px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
-		<div id="extraBubble5" class="linkbubble" style="left:300px; top:300px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
-		<div id="extraBubble6" class="linkbubble" style="left:300px; top:300px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
-		<div id="extraBubble7" class="linkbubble" style="left:30px; top:300px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
-		<div id="extraBubble8" class="linkbubble" style="left:30px; top:300px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
-		</div>
-		<div id="extraBubble9" class="linkbubble" style="left:30px; top:300px;">
-			<img class="linkbubble" src="/wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
+			<img class="linkbubble" src="./wp-content/themes/BeXcellent-Theme/singleBubble.jpg" alt="">
 		</div>
 
 		
