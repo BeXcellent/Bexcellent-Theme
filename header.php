@@ -25,7 +25,9 @@
 <script src="/wp-content/themes/Bexcellent-Theme/js/bubble.js"></script>
 <style type="text/css">
 body{
-background: url('./wp-content/themes/BeXcellent-Theme/backgrounds/<?php echo $selectedBg; ?>') no-repeat;
+background-image: url("./wp-content/themes/BeXcellent-Theme/backgrounds/<?php echo $selectedBg; ?>");
+background-repeat: no-repeat;
+background-size: cover;
 }
 </style>
 <?php wp_head(); ?>
