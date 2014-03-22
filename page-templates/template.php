@@ -26,7 +26,7 @@ get_header(); ?>
 				</li>
 			</ul>
 		 </div>
-		<div id="title"> <img src="/wp-content/themes/Bexcellent-Theme/title.jpg" alt="BeXcellent"> </div>
+		<div id="title"> <img src="/wp-content/themes/Bexcellent-Theme/title.png" alt="BeXcellent"> </div>
 
 		<div id="sidebar">
 			<aside>

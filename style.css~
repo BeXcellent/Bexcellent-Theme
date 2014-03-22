@@ -76,16 +76,6 @@ img.linkbubble {
 /* NavBar.css */
 /**************/
 
-.sidebar
-{
-	display: block;
-	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 130px;
-	height: 140px;
-	z-index: 3;
-}
 .sub { 
 	position: relative;
 	top: -125px;
@@ -94,7 +84,7 @@ img.linkbubble {
 
 li#superli {
 	display: block;
-	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.jpg');
+	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 130px;
