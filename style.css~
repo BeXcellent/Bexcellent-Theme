@@ -76,6 +76,16 @@ img.linkbubble {
 /* NavBar.css */
 /**************/
 
+.sidebar
+{
+	display: block;
+	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 130px;
+	height: 140px;
+	z-index: 3;
+}
 .sub { 
 	position: relative;
 	top: -125px;
@@ -199,18 +209,15 @@ div.bubbleback
 background-image:url('/wp-content/themes/Bexcellent-Theme/bubbleback.png');
 background-size: 100% 100%;
 background-repeat:none;
-display:block;
-width:90%
-margin-left:auto;
-margin-right:auto;
 text-align:center;
 }
+/*
 div.bubbleback>*
 {
 position:absolute;
 top:30px;
 }
-/*
+
 h1.page-title
 {
 text-decoration:underline;
