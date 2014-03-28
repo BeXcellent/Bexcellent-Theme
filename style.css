@@ -65,10 +65,8 @@ img.linkbubble {
     font-size: 18pt;
 	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.png');
 	background-repeat: no-repeat;
-	background-size: 100%;
-	
+	background-size: 100% 100%;
 	display: none;
-	
 	z-index: 2;
 }
 
