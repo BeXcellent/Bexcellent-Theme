@@ -86,7 +86,7 @@ li#superli {
 	display: block;
 	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.png');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 	width: 130px;
 	height: 140px;
 	z-index: 3;
@@ -188,12 +188,13 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
-
+/*
 footer.site-footer
 {
 background:#606060;
 }
 
+*/
 div.bubbleback
 {
 background-image:url('/wp-content/themes/Bexcellent-Theme/bubbleback.png');
