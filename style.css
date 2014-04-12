@@ -48,8 +48,6 @@ img.linkbubble {
     border-top: solid white 1px;
     border-bottom: solid white 1px;*/
 	
-	margin-left: 1%;
-	
 	width: 130px;
 	height: 100px;
 	
@@ -80,6 +78,10 @@ img.linkbubble {
 	position: relative;
 	top: -125px;
 	left: -20px;
+}
+
+.sub li {
+	margin-left: 5px;
 }
 
 li#superli {
