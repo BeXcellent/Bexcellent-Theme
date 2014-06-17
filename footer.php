@@ -8,9 +8,7 @@
  */
 ?>		
 		</div>
-		<div class="sidebar">
-			<aside><?php get_sidebar(); ?></aside>
-		</div>
+		<?php get_sidebar(); ?>
 		<?php wp_footer(); ?>
 	</body>
 </html>

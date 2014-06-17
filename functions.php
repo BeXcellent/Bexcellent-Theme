@@ -2,20 +2,22 @@
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'BeXcellent Theme' ),
 ) );
-function beX_widgets_init() {
+// Register Sidebar
+function beX_register_sidebar() {
 
-	register_sidebar( array(
-		'name' => __( 'Main Sidebar', 'BeXcellent Theme' ),
-		'id' => 'sidebar',
-		'description' => __( 'The main sidebar appears on the right on each page except the gateway template', 'BeXcellent Theme' ),
+	$args = array(
+		'id'            => 'sidebar',
+		'name'          => __( 'Sidebar', 'text_domain' ),
+		'description'   => __( 'Sidebar shown on all pages except gateway', 'text_domain' ),
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => '</aside>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-	) );
+		'after_widget'  => '</aside>',
+	);
+	register_sidebar( $args );
+
 }
 
-add_action( 'widgets_init', 'beX_widgets_init' );
-
-
+// Hook into the 'widgets_init' action
+add_action( 'widgets_init', 'beX_register_sidebar' );
 ?>
