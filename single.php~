@@ -59,6 +59,5 @@ get_header();
 	</div><!-- #primary -->
 </div>
 <?php
-get_sidebar();
 get_footer();
 ?>
