@@ -14,20 +14,16 @@
 get_header(); 
 ?>
 
-<?php if ( have_posts() ) : ?>
-<?php /* Start the Loop */ ?>
-<?php while ( have_posts() ) : the_post(); ?>
-<?php
-/* Include the Post-Format-specific template for the content.
- * If you want to override this in a child theme, then include a file
- * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-*/
-get_template_part( 'content', get_post_format() );?>
-<?php endwhile; ?>
-<?php else : ?>
-<h1>Nothing here...</h1>
-<?php endif; ?>
-
+<div id="contentmine">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+			<?php while(have_posts()) : the_post(); ?>
+				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+				<p><?php the_content(''); ?></p>
+			<?php endwhile; wp_reset_query(); ?>			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+</div>
 <?php
 get_footer();
 ?>

@@ -24,6 +24,7 @@ get_header();
 		</div><!-- #content -->
 	</div><!-- #primary -->
 </div>
+<?php wp_sidebar(); ?>	
 <?php
 get_footer();
 ?>
