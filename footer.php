@@ -7,8 +7,8 @@
  * @package BeXcellent
  */
 ?>		
-		<?php get_sidebar(); ?>
 		</div>
+		<?php get_sidebar(); ?>
 		<?php wp_footer(); ?>
 	</body>
 </html>
