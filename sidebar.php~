@@ -13,7 +13,7 @@
 			</aside>
 		
 			<aside id="meta" class="widget">
-				<h1>Sidebars</h1>
+				<h1>Sidebar</h1>
 			</aside>
 
 		<?php endif; // end sidebar widget area ?>
