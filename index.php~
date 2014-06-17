@@ -29,6 +29,5 @@ get_template_part( 'content', get_post_format() );?>
 <?php endif; ?>
 
 <?php
-get_sidebar();
 get_footer();
 ?>
