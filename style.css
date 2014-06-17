@@ -1,18 +1,10 @@
-/*
-Theme Name: BeXcellent Theme
-Theme URI: bexcellent.org.uk
-Description: The theme for the BeXcellent website
-Version: 1.0
-Author: The BeXcellent DevOps Team
-Author URI: github.com/BeXcellent
-*/
 
 /**************/
 /* Bubble.css */
 /**************/
 
 #bubble {
-	background-image: url('img/becellent.jpg');
+	background-image: url('/wp-content/uploads/2014/03/becellent.jpg');
 	background-position: 2px 120px;
 	background-repeat: no-repeat;
 	z-index: -1;
@@ -44,32 +36,34 @@ img.linkbubble {
 }
 
 #super, .sub{
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .sub li {
-	text-align: center;
-	position: relative;
+    text-align: center;
+    position: relative;
 	top: 101px;
 	left: 0px;
-	/*border-right: solid white 1px;
-	border-top: solid white 1px;
-	border-bottom: solid white 1px;*/
+    /*border-right: solid white 1px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;*/
+	
 	width: 130px;
 	height: 100px;
+	
 	display: none;
 	z-index: 1;
 }
 
 .sub a {
-	text-decoration: none;
-	width: 130px;
-	height: 100px;
-	line-height: 80px;
-	color: rgb(25, 25, 25);
-	font-family: Jivetalk;
-	font-size: 18pt;
-	background-image: url('img/bubble.png');
+    text-decoration: none;
+    width: 130px;
+    height: 100px;
+    line-height: 80px;
+    color: rgb(25, 25, 25);
+    font-family: Jivetalk;
+    font-size: 18pt;
+	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	display: none;
@@ -79,6 +73,7 @@ img.linkbubble {
 /**************/
 /* NavBar.css */
 /**************/
+
 .sub { 
 	position: relative;
 	top: -125px;
@@ -91,7 +86,7 @@ img.linkbubble {
 
 li#superli {
 	display: block;
-	background-image: url('img/bubble.png');
+	background-image: url('/wp-content/themes/Bexcellent-Theme/bubble.png');
 	background-repeat: no-repeat;
 	background-size:100% 100%;
 	width: 130px;
@@ -117,8 +112,8 @@ li#superli {
 	margin: 0% 30% 0% 30%;
 	line-height: 140px;
 	color: rgb(25, 25, 25);
-	font-family: Jivetalk;
-	font-size: 18pt;
+    font-family: Jivetalk;
+    font-size: 18pt;
 }
 body {
 	background-color: #FFF;
@@ -162,14 +157,69 @@ body {
 	top: 55px;
 	left: -10px;
 }
-/*********/
-/* Other */
-/*********/
+/*****************************************/
+/* Custom stuff to make things look nice */
+/*****************************************/
 
+h1,h2,h3,h4,h5,p,abbr,form,a
+{
+margin-top:10px;
+margin-left:10px;
+}
+
+a:link
+{
+color:#000000;
+}
+a:visited
+{
+color:#474747;
+}
+a:hover
+{
+color:#A4A4A4;
+}
+a:active
+{
+color:#A4A4A4;
+text-decoration:none;
+}
+.center
+{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+/*
+footer.site-footer
+{
+background:#606060;
+}
+
+*/
 div.bubbleback
 {
-	background-image:url('img/bubbleback.png');
-	background-size: 100% 100%;
+background-image:url('/wp-content/themes/Bexcellent-Theme/bubbleback.png');
+background-size: 100% 100%;
 background-repeat:none;
 text-align:center;
 }
+/*
+div.bubbleback>*
+{
+position:absolute;
+top:30px;
+}
+
+h1.page-title
+{
+text-decoration:underline;
+}
+div.box
+{
+border-style:dashed;
+border-color:#00001F;
+padding:5px;
+border-width:3px;
+}
+*/

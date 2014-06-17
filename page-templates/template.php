@@ -38,14 +38,17 @@ get_header(); ?>
 
 			<div id="primary" class="site-content">
 				<div id="content" role="main">
-			<?php query_posts('posts_per_page=8'); ?>
-			<?php while(have_posts()) : the_post(); ?>
-			<a href="<?php the_permalink(); ?>" class="list-group-item">
-				<h4 class="list-group-item-heading"><?php the_title(); ?></h4>
-				<p class="text-muted list-group-item-text">Posted by <?php the_author(); ?> on <?php the_time('F jS, Y') ?>.</p>
-				<p><?php the_content(); ?> </p>
-			</a>
-			<?php endwhile; wp_reset_query(); ?>
+
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php if ( has_post_thumbnail() ) : ?>
+					<div class="entry-page-image">
+						<?php the_post_thumbnail(); ?>
+					</div><!-- .entry-page-image -->
+				<?php endif; ?>
+
+				<?php get_template_part( 'content', 'page' ); ?>
+
+			<?php endwhile; // end of the loop. ?>
 
 				</div><!-- #content -->
 			</div><!-- #primary -->
