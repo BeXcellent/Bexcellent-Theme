@@ -13,8 +13,13 @@
 
 get_header(); 
 ?>
-
-<div id="menu"> 
+<div id="title"> 
+	<img src="<?php echo get_template_directory_uri(); ?>/img/title.png" alt="BeXcellent">
+			<aside>
+				<?php get_sidebar(); ?>
+			</aside>
+</div>
+<div id="menu col-md-2"> 
 	<ul id="super">
 		<li id="superli"> 
 			<p>Menu</p>
@@ -42,9 +47,7 @@ get_header();
 		</li>
 	</ul>
 </div>
-<div id="title"> 
-	<img src="<?php echo get_template_directory_uri(); ?>/img/title.png" alt="BeXcellent"> 
-</div>
+
 <div id="contentmine">
 	<div id="primary" class="site-content">
 		<div id="content" role="main">

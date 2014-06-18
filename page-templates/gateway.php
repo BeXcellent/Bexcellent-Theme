@@ -9,7 +9,7 @@
  * @since Twenty Twelve 1.0
  */
  get_header(); ?>
-<script src=”<?php echo get_template_directory_uri(); ?>/js/bubble.js” ></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/bubble.js" ></script>
 <img src="<?php echo get_template_directory_uri(); ?>/img/becellent.jpg" alt="BeXcellent" style="position:absolute; top: 120px; left: 2px;" onload="start();" />
 <div id="bubble"> 
 		<div id ="l1" class="linkbubble" style="left: 145px; top: 155px;">

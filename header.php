@@ -14,7 +14,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
-		<script src="<?php echo get_template_directory_uri(); ?>/js/bubble.js"></script>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>

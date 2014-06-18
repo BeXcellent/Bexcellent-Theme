@@ -43,5 +43,4 @@
 			<a target="_parent" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URL']; ?>/12-18"><img class="linkbubble" src="<?php echo get_template_directory_uri(); ?>/img/12-18.png" alt="12-18"></a>
 		</div> 
 </div>
-<div id="contentgateway">
 </div>
