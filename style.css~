@@ -6,7 +6,7 @@ Version: 1.0
 Author: The BeXcellent DevOps Team
 Author URI: github.com/BeXcellent
 */
-
+@import url('/css/bootstrap.min.css');
 /**************/
 /* Bubble.css */
 /**************/
